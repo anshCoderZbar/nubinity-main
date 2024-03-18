@@ -1,0 +1,51 @@
+{
+  "name": "nubinity",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@elastic/apm-rum-react": "^2.0.1",
+    "@sentry/react": "^7.85.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^18.2.42",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.292.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-player": "^2.14.1",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "reapop": "^4.2.2",
+    "run": "^1.5.0",
+    "swiper": "^11.0.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

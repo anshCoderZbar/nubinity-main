@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=PT+Sans:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "ITC Avant Garde Gothic";
+  src: url("fonts/Avant-Garde-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: bold;
+  src: local(""), url("fonts/Avant-Garde-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Gothic";
+  src: url("fonts/avant_garde_medium.ttf") format("ttf");
+  font-weight: medium;
+  font-style: medium;
+  src: local(""), url("fonts/avant_garde_medium.ttf") format("opentype");
+}
+@font-face {
+  font-family: "ITC Avant Garde Gothic";
+  src: url("fonts/AvantGarde-Normal.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  src: local(""), url("fonts/AvantGarde-Normal.ttf") format("opentype");
+}
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-padding-top: 100px;
+  font-family: "ITC Avant Garde Gothic";
+  background-color: #171619;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "ITC Avant Garde Gothic";
+}
+
+p {
+  font-family: "ITC Avant Garde Gothic";
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font-family: "ITC Avant Garde Gothic";
+}
+a {
+  font-family: "ITC Avant Garde Gothic";
+  text-decoration: none;
+}
+button {
+  font-family: "ITC Avant Garde Gothic";
+}
+input:focus {
+  outline: none;
+}
+img {
+  max-width: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.container-fluid {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
+.main_head_1 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.content_main {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 20px;
+  max-width: 700px;
+}
+
+.btn_bg {
+  background-color: #fdc535;
+  color: #000;
+  border: 0;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+.btn_bg:hover {
+  background-color: #0788ff;
+  color: #fff;
+}
+
+.container-fluid.pad_lf_0 {
+  padding-left: 0px !important;
+}
+
+.container-fluid.pad_ri_0 {
+  padding-right: 0 !important;
+}
+
+@media only screen and (max-width: 1600px) {
+  .main_head_1 {
+    font-size: 35px;
+  }
+  .container-fluid {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
+
+  .serrvices .swiper-pagination-bullet {
+    height: 16px;
+    width: 16px;
+  }
+  .content_main {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .btn_bg {
+    font-size: 14px;
+    padding: 11px 22px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .container-fluid {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
+  .main_head_1 {
+    font-size: 30px;
+  }
+  .container-fluid {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .container-fluid {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .content_main {
+    font-size: 14px;
+  }
+  .btn_bg {
+    font-size: 13px;
+    padding: 11px 22px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .container-fluid {
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
+  .main_head_1 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container-fluid {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .vision_content {
+    margin-left: 0;
+    text-align: center;
+  }
+  .container-fluid.pad_ri_0 {
+    padding-right: 20px !important;
+  }
+  .container-fluid.pad_lf_0 {
+    padding-left: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+}

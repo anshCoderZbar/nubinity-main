@@ -1,0 +1,996 @@
+/* banner */
+.banner_layout {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.banner_layout img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.banner_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  padding: 0 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.banner_content h1 {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 5.6px;
+  text-align: center;
+  max-width: 900px;
+}
+
+.banner_btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #0788ff;
+  border-radius: 11px;
+  text-transform: uppercase;
+  padding: 13px 30px;
+  margin-top: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.banner_btn:hover {
+  background-color: #0788ff;
+}
+
+.banner_swiper .swiper-pagination-bullet {
+  background-color: #fff !important;
+  opacity: 100%;
+}
+
+.banner_swiper .swiper-pagination-bullet-active {
+  background-color: #fdc535 !important;
+}
+
+/* .banner_layout iframe {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+
+} */
+
+.banner_layout > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 999;
+}
+.banner_layout video {
+  object-fit: cover;
+}
+
+/* banner */
+
+/* services */
+
+.services_abt_bg {
+  background-color: #171619;
+  background-image: url("assets/about_bg.png");
+  width: 100%;
+  height: 100%;
+  padding: 5rem 0 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.service_card {
+  margin-top: 50px;
+}
+
+.service-card-body {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 28px;
+  padding: 50px;
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 15px;
+  transition: 0.5s ease-in-out;
+  border: 2px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.service-card-body p {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  max-width: 250px;
+}
+
+.service-card-body:hover {
+  background-color: #000;
+  border: 2px solid #0788ff;
+}
+
+.service-card-body:hover img {
+  filter: brightness(0) saturate(100%) invert(36%) sepia(87%) saturate(1710%)
+    hue-rotate(192deg) brightness(99%) contrast(107%);
+}
+
+.serrvices .swiper-pagination {
+  position: relative;
+  margin-top: 40px;
+}
+
+.slider_tetx {
+  margin-bottom: 40px;
+}
+
+.serrvices .swiper-pagination-bullet {
+  height: 20px;
+  width: 20px;
+  background: #d9d9d9;
+}
+
+.serrvices .swiper-pagination-bullet-active {
+  background-color: #0788ff;
+}
+
+/* services */
+
+/* about us */
+.about_us {
+  background-color: #18171df7;
+  position: relative;
+}
+
+.about_us_content {
+  padding: 50px 0;
+}
+
+.about_us_content button {
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+/* plans */
+.plans {
+  background-color: #16171f;
+  background-image: url("assets/plans_layers.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 70px 0;
+}
+
+.plans_content span {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+  font-family: "ITC Avant Garde Gothic";
+}
+
+.plans_content h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 69px;
+}
+
+.plans_content p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.plans_content button {
+  margin-top: 15px;
+}
+
+.price_card_bg {
+  background-color: #00000080;
+  padding: 30px 35px;
+  width: auto;
+  height: 100%;
+  border-radius: 17px;
+  transition: 0.5s ease-in-out;
+}
+
+.price-discounted {
+  color: #fff;
+  font-family: "ITC Avant Garde Gothic";
+  font-size: 17px;
+}
+
+.price_card_bg h3 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.price {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.price span {
+  font-size: 16px;
+}
+
+.price_card_bg hr {
+  border-top: 1px solid #fff;
+  opacity: 100;
+  margin: 1.5rem 0;
+}
+
+.plans_desc {
+  list-style: none;
+}
+
+.plans_desc li {
+  color: #fff;
+  margin-top: 25px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  padding-left: 1.8rem;
+}
+
+.plans_desc li svg {
+  height: 20px;
+  width: 20px;
+  background-color: #fdc535;
+  color: #000;
+  border-radius: 10px;
+  padding: 3px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transition: 0.5s ease-in-out;
+}
+
+.checkout-btn {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 35px;
+  border: 1px solid #fff;
+  margin-top: 30px;
+  border-radius: 27px;
+  font-size: 17px;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+.price_card_bg:hover {
+  background-color: #000;
+}
+
+.price_card_bg:hover svg {
+  background-color: #0788ff;
+}
+
+.price_card_bg:hover .checkout-btn {
+  background-color: #0788ff;
+  border: 1px solid #0788ff;
+}
+
+/* plans */
+
+/* vision */
+.vision {
+  background-color: #171820;
+}
+
+.vision_content {
+  margin-left: 50px;
+  padding: 40px 0;
+}
+
+.visn_imgbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vision_content button {
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.btm_content {
+  padding: 80px 0 50px;
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.btm_content .lower_quote svg,
+.btm_content .upper_quote svg {
+  fill: #fdc535;
+  color: #fdc535;
+  margin: 0 5px;
+}
+
+.btm_content .lower_quote svg {
+  transform: rotateZ(180deg);
+}
+
+.btm_content p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
+.ceo_name {
+  font-family: "Lexend Zetta", sans-serif;
+  color: #fff;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+.designaton {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+}
+
+.custmr_privacy {
+  background-color: #0788ff;
+}
+
+.ceo_message_section {
+  background-color: #171619;
+}
+
+/* vision */
+
+/* team */
+.our_team {
+  background-color: #151723;
+  background-image: url("assets/Privacy_Policy_Bg.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 70px 0 100px;
+}
+
+.team_card {
+  display: grid;
+  /* justify-content: center;
+  align-items: center; */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 80px;
+  margin-bottom: 80px;
+}
+
+.teams h2 {
+  margin-bottom: 55px;
+}
+
+.card_outer {
+  background-color: #000;
+  width: 100%;
+  position: relative;
+  padding: 20px 15px 25px 15px;
+  border-radius: 12px;
+  transition: 0.5s ease-in-out;
+}
+
+.card_outer:hover {
+  background-color: #0788ff;
+}
+
+.member_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -45px;
+}
+
+.member_img img {
+  border-radius: 12px;
+}
+
+.member_name {
+  font-size: 18px;
+}
+
+.member_designation {
+  font-size: 14px;
+}
+
+.card_icons,
+.member_name,
+.member_designation {
+  margin-top: 10px;
+}
+
+.progress-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  padding: 55px 55px;
+  height: 400px;
+  margin-bottom: 110px;
+  margin-top: 50px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.progress-step {
+  width: 25%;
+  height: 10px;
+}
+
+.dot {
+  width: 50px;
+  height: 50px;
+  background: #fcd535;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot_inner {
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+
+.dot_before,
+.dot_after {
+  position: absolute;
+  text-align: center;
+  padding: 0 15px;
+  z-index: 1;
+}
+
+.dot_before {
+  top: 30%;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.dot_after {
+  bottom: 30%;
+  color: #fff;
+  max-width: 268px;
+  font-size: 18px;
+  transform: translateY(50%);
+}
+
+.dot_v4 {
+  background-color: #137dbb;
+}
+
+.s_1 {
+  background-color: #fcd535;
+}
+
+.s_2 {
+  background: linear-gradient(90deg, #fcd535 0%, #a7b566 35%);
+}
+
+.s_3 {
+  background: linear-gradient(90deg, #fcd535 0%, #a7b566 0%, #529ccc 35%);
+}
+
+.progress_content {
+  color: #fff;
+}
+
+@media only screen and (max-width: 1600px) {
+  .banner_layout {
+    height: 80vh;
+  }
+
+  .banner_content h1 {
+    font-size: 40px;
+  }
+
+  .banner_btn {
+    font-size: 16px;
+  }
+
+  .plans_content span {
+    font-size: 16px;
+  }
+
+  .plans_content h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .plans_content p {
+    font-size: 16px;
+  }
+
+  .price_card_bg h3 {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 45px;
+  }
+
+  .checkout-btn {
+    font-size: 13px;
+    padding: 9px 28px;
+  }
+
+  .price_card_bg {
+    padding: 28px 20px;
+  }
+
+  .service-card-body p {
+    font-size: 16px;
+  }
+
+  .dot_before {
+    font-size: 20px;
+  }
+
+  .dot {
+    width: 45px;
+    height: 45px;
+  }
+
+  .dot_after {
+    font-size: 15px;
+  }
+
+  .dot_inner {
+    height: 22px;
+    width: 22px;
+  }
+
+  .progress-container {
+    padding: 40px 46px;
+  }
+
+  .serrvices .swiper-pagination-bullet {
+    height: 14px;
+    width: 14px;
+  }
+
+  .plans_desc li {
+    font-size: 13px;
+  }
+
+  .designaton {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .banner_layout {
+    height: 68vh;
+  }
+
+  .banner_content h1 {
+    font-size: 40px;
+  }
+
+  .banner_btn {
+    padding: 11px 30px;
+  }
+
+  .service-card-body {
+    padding: 30px;
+    min-height: 270px;
+    max-height: 280px;
+    gap: 25px;
+  }
+
+  .service-card-body img {
+    width: 60px;
+  }
+
+  .plans_content h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .price {
+    font-size: 40px;
+  }
+
+  .plans_desc li svg {
+    height: 15px;
+    width: 15px;
+  }
+
+  .plans_desc li {
+    padding-left: 1.5rem;
+  }
+
+  .team_card {
+    gap: 35px;
+  }
+
+  .member_name {
+    font-size: 16px;
+  }
+
+  .member_designation {
+    font-size: 13px;
+  }
+
+  .card_icons a svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .bottom_banner p {
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .banner_content h1 {
+    max-width: 600px;
+    font-size: 32px;
+  }
+
+  .serrvices .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+  }
+
+  .service_card {
+    margin-top: 30px;
+  }
+
+  .plans_content span {
+    font-size: 13px;
+  }
+
+  .plans_content h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .plans_content p {
+    font-size: 14px;
+  }
+
+  .price-discounted {
+    font-size: 15px;
+  }
+
+  .price_card_bg h3 {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 28px;
+  }
+
+  .price span {
+    font-size: 13px;
+  }
+
+  .price_card_bg {
+    padding: 28px 15px;
+  }
+
+  .vision_content {
+    margin-left: 25px;
+  }
+
+  .cards_outer {
+    margin-top: 2.5rem;
+  }
+
+  .btm_content p {
+    font-size: 16px;
+    max-width: 870px;
+    margin: 0 auto;
+  }
+
+  .designaton {
+    font-size: 14px;
+  }
+
+  .dot_before {
+    font-size: 17px;
+  }
+
+  .dot {
+    width: 40px;
+    height: 40px;
+  }
+
+  .dot_inner {
+    height: 18px;
+    width: 18px;
+  }
+
+  .progress-step {
+    height: 7px;
+  }
+
+  .progress-container {
+    height: 330px;
+  }
+
+  .teams h2 {
+    margin-bottom: 30px;
+  }
+
+  .team_card {
+    margin-top: 4.5rem;
+  }
+
+  .progress-container {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .banner_content h1 {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+  }
+
+  .banner_btn {
+    margin-top: 10px;
+  }
+
+  .services_abt_bg {
+    padding: 4rem 0 1rem;
+  }
+
+  .serrvices .swiper-pagination-bullet {
+    height: 10px;
+    width: 10px;
+  }
+
+  .price span {
+    font-size: 12px;
+  }
+
+  .plans_desc li {
+    margin-top: 15px;
+  }
+
+  .btm_content {
+    padding: 50px 22px 50px 0;
+  }
+
+  .vision_content {
+    margin-left: 5px;
+  }
+
+  .dot_after {
+    font-size: 12px;
+    max-width: 200px;
+  }
+
+  .dot_before {
+    font-size: 16px;
+  }
+
+  .progress-container {
+    margin-bottom: 60px;
+  }
+
+  .our_team {
+    padding: 70px 0 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner_content h1 {
+    font-size: 24px;
+  }
+
+  .about_us {
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .about_us .row {
+    flex-direction: column-reverse;
+  }
+
+  .about_us_content {
+    padding: 50px 0 75px;
+  }
+
+  .plans {
+    text-align: center;
+  }
+
+  .price_card_bg {
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .plans_desc li {
+    text-align: left;
+  }
+
+  .checkout-btn {
+    margin-top: 50px;
+  }
+
+  .col-rev {
+    flex-direction: column-reverse;
+    margin-top: 4rem;
+  }
+
+  .btm_content {
+    padding: 50px 0px 50px 0;
+  }
+
+  span.lower_quote {
+    position: relative;
+    top: -10px;
+  }
+
+  span.lower_quote svg,
+  .upper_quote svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  span.upper_quote {
+    position: relative;
+    top: -6px;
+  }
+
+  .ceo_name {
+    font-size: 16px;
+  }
+
+  .designaton {
+    font-size: 12px;
+  }
+
+  .our_team {
+    text-align: center;
+  }
+
+  .progress-container {
+    padding: 30px 15px;
+    flex-wrap: wrap;
+    height: auto;
+    row-gap: 2.5rem;
+  }
+
+  .dot {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    background: transparent;
+    text-align: left;
+    border-radius: unset;
+    position: relative;
+    padding-left: 25px;
+    justify-content: flex-start;
+  }
+
+  .dot::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 9px;
+    background: #fcd535;
+    border-radius: 100%;
+    width: 13px;
+    height: 13px;
+  }
+
+  .dot_before {
+    top: 30%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    transform: unset;
+    position: static;
+    width: 100%;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .dot_inner {
+    display: none;
+  }
+
+  .progress-step {
+    display: none;
+  }
+
+  .dot_before,
+  .dot_after {
+    position: static;
+    text-align: left;
+  }
+
+  .dot_after {
+    font-size: 16px;
+    transform: unset;
+    padding: 0;
+    margin-top: 8px;
+    max-width: 100%;
+  }
+
+  .social_icons ul {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .banner_layout {
+    height: 60vh;
+  }
+
+  .banner_content h1 {
+    font-size: 28px;
+  }
+
+  .banner_btn {
+    font-size: 14px;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .banner_layout iframe {
+    height: 56.25vw;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .banner_layout iframe {
+    width: 177.78vh;
+  }
+}

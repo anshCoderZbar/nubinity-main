@@ -1,0 +1,63 @@
+/** 3. Hero
+  *******************************************************************/
+
+.hero {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.hero .front-content {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.hero .front-content .container-mid {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.hero .front-content .container-mid h1 {
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.46em;
+  letter-spacing: 0.025em;
+  color: #fff;
+}
+
+.hero .front-content .container-mid .open-popup {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2.6em;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0 2.6em;
+  cursor: pointer;
+
+  transition: all 0.1s linear;
+  letter-spacing: 0.025em;
+  color: #fff;
+  border: 2px solid #fcd535;
+  border-radius: 11px;
+  background: none;
+}
+
+.hero .front-content .container-mid .open-popup:hover {
+  color: #fff;
+  background: #fcd535;
+}
