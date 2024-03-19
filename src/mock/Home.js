@@ -18,7 +18,7 @@ import serviceIcon08 from "assets/service-icons/icon_08.svg";
 export const BannerData = [
   {
     id: 1,
-    heading: "NUBINITY <br/> YOUR WORLD CONNECTED",
+    heading: "Nubinity <br/> Your World. Connected.",
     bgImg: require("assets/banner_1.jpg"),
     video: true,
     linkTxt: "SEE SERVICES",
@@ -213,10 +213,10 @@ export const TeamData = [
   {
     id: 3,
     img: require("assets/team3.png"),
-    name: "Juan Cortez ",
+    name: "Juan Cortes",
     linkedinUrl:
       "https://www.linkedin.com/in/juanantoniocortescortes?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app&original_referer=",
-    designation: "Chief Operations Officer",
+    designation: "Chief Marketing Officer",
   },
   {
     id: 4,

@@ -16,11 +16,16 @@ import { BottomBanner } from "components/ui/BottomBanner";
 import { PlansData, TeamData } from "mock/Home";
 import { Services } from "app/common/Services";
 import { LAYOUT_IMG } from "app/images";
+import { Helmet } from "react-helmet";
 
 export default function Home() {
   const navigate = useNavigate();
   return (
     <div data-aos="fade-up" data-aos-duration="500" className="home_page">
+      <Helmet>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="//fw-cdn.com/11390608/4064650.js" chat="true"></script>
+      </Helmet>
       <HomeBanner />
       <div className="services_abt_bg">
         <div id="services" className="container-fluid">

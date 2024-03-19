@@ -8,9 +8,11 @@ export const BottomBanner = () => {
     <div className="bottom_banner">
       <div className="container-fluid">
         <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-          Our implementation and consulting is mostly done remotely. Reach out to
-          us or join us on Discord, Telegram, or Apple Chat. We are available
-          for free consultation and will create a custom plan to fit your needs.
+          Nubinity is a remote services provider. We deliver our services via
+          on-site and off-site automation using various tools. Our professional
+          services are also delivered using remote means. On-site consulting and
+          implementation is also available. We are available for consultation
+          and will create a custom plan to fit your needs.
         </p>
         <Link
           target={"_blank"}
@@ -20,7 +22,8 @@ export const BottomBanner = () => {
           data-aos-duration="1000"
         >
           Get started now
-        </Link>s
+        </Link>
+        s
       </div>
     </div>
   );

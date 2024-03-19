@@ -1,12 +1,18 @@
+import React from "react";
+import { Helmet } from "react-helmet";
+
 import { LAYOUT_IMG } from "app/images";
 import { BottomBanner } from "components/ui/BottomBanner";
-import React from "react";
 
 import "styles/Home.css";
 
 export default function About() {
   return (
     <>
+      <Helmet>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="//fw-cdn.com/11390608/4064650.js" chat="true"></script>
+      </Helmet>
       <div className="pt-2 pt-sm-3 pt-lg-5"></div>
       <div className="services_abt_bg">
         <div className="container-fluid pad_ri_0">

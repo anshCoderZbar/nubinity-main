@@ -104,7 +104,7 @@ export const FooterLayout = [
   },
   {
     id: 4,
-    heading: "TO BE PROVIDED LATER",
+    heading: "Legal and Social",
     menus: [
       {
         id: 16,
@@ -130,7 +130,7 @@ export const FooterLayout = [
       },
       {
         id: 20,
-        link: "Client Area",
+        link: "Client Area Feed",
         slug: "https://clients.nubinity.com",
         target: true,
       },

@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { LAYOUT_IMG } from "app/images";
 import { FooterLayout } from "mock/Layout";
 import Cookies from "js-cookie";
-import { ChatWoot } from "./ChatWoot";
 
 export const Footer = () => {
   const [cookieNoti, showCookieNoti] = useState(false);
@@ -158,10 +157,12 @@ export const Footer = () => {
           </div>
         </div>
         <div className="copyright">
-          <p>Copyright 2023 Nubinity. All Rights Reserved</p>
+          <p>
+            Copyright {new Date().getFullYear()} Nubinity. All Rights Reserved
+          </p>
         </div>
       </footer>
-      <ChatWoot />
+      {/* <ChatWoot /> */}
     </>
   );
 };
