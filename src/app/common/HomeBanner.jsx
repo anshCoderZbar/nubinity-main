@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { BannerData } from "mock/Home";
 import { Link } from "react-router-dom";
 
-import video from "assets/banner_video.mp4";
+import video from "assets/first_banner_video.mp4";
 import ReactPlayer from "react-player";
 
 export const HomeBanner = () => {
