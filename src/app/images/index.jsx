@@ -1,4 +1,4 @@
-import headerLogo from "assets/logo.svg";
+import headerLogo from "assets/logo.png";
 export const LAYOUT_IMG = {
   headerLogo: headerLogo,
   payment1: require("assets/pay_1.png"),
