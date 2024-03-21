@@ -106,7 +106,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 15px;
-  margin-top: 45px;
+  margin: 45px 0;
 }
 
 .service_card {
@@ -602,7 +602,7 @@
   }
 
   .servicees_container {
-    margin-top: 36px;
+    margin: 36px 0;
   }
 
   .serrvices .swiper-pagination-bullet {
@@ -838,7 +838,7 @@
   }
 
   .servicees_container {
-    margin-top: 25px;
+    margin: 25px 0;
   }
 }
 
@@ -985,7 +985,7 @@
 
   .servicees_container {
     grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-    margin-top: 20px;
+    margin: 20px 0;
   }
 }
 
