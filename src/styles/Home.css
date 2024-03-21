@@ -102,6 +102,13 @@
   background-attachment: fixed;
 }
 
+.servicees_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 15px;
+  margin-top: 45px;
+}
+
 .service_card {
   margin-top: 50px;
 }
@@ -118,7 +125,7 @@
   align-items: center;
   flex-direction: column;
   gap: 25px;
-  margin-top: 15px;
+  margin-top: 0;
   transition: 0.5s ease-in-out;
   border: 2px solid rgba(0, 0, 0, 0);
   cursor: pointer;
@@ -594,6 +601,10 @@
     padding: 40px 46px;
   }
 
+  .servicees_container {
+    margin-top: 36px;
+  }
+
   .serrvices .swiper-pagination-bullet {
     height: 14px;
     width: 14px;
@@ -825,6 +836,10 @@
   .our_team {
     padding: 70px 0 60px;
   }
+
+  .servicees_container {
+    margin-top: 25px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -967,6 +982,11 @@
   .social_icons ul {
     justify-content: center;
   }
+
+  .servicees_container {
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -980,6 +1000,10 @@
 
   .banner_btn {
     font-size: 14px;
+  }
+
+  .servicees_container {
+    grid-template-columns: 1fr;
   }
 }
 
