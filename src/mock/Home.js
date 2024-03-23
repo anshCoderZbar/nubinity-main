@@ -315,6 +315,6 @@ export const TeamData = [
     name: "Chancellor Boudreaux ",
     linkedinUrl:
       "https://www.linkedin.com/in/chancelor-boudreaux-mba-4b330b85?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    designation: "Chief Financial Officer",
+    designation: "Chief Marketing Officer",
   },
 ];
