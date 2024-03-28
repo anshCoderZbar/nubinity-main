@@ -56,10 +56,22 @@ export const Services = () => {
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-              className="mb-5"
             >
               {modalData?.heading}
             </h1>
+            <ul className="list-unstyled ps-0">
+              <li
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+              >
+                Fully managed endpoint protection services designed to secure
+                devices against the evolving landscape of cyber threats. We
+                provide comprehensive defense and threat analytics for laptops,
+                desktops, and mobile devices, safeguarding them from malware,
+                ransomware, and sophisticated cyber-attacks.
+              </li>
+            </ul>
             <a
               href="https://clients.nubinity.com/"
               target="_blank"
@@ -86,8 +98,8 @@ export const Services = () => {
     </>
   );
 };
-
-/* <>
+{
+  /* <>
 <Swiper
   slidesPerView={1}
   spaceBetween={15}
@@ -211,3 +223,4 @@ export const Services = () => {
   </h4>
 </Swiper>
 </> */
+}
