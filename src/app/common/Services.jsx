@@ -10,6 +10,7 @@ import privacyBanner from "assets/privacy.png";
 
 export const Services = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [modalData, setModalData] = useState({});
   return (
     <>
       <div className="servicees_container">
@@ -18,7 +19,10 @@ export const Services = () => {
             <div
               key={i}
               data-toggle="modal"
-              onClick={() => setIsOpen(true)}
+              onClick={() => {
+                setIsOpen(true);
+                setModalData(data);
+              }}
               // className="service_card"
             >
               <div className="service-card-body">
@@ -52,27 +56,15 @@ export const Services = () => {
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
+              className="mb-5"
             >
-              Managed Endpoint Protection
+              {modalData?.heading}
             </h1>
-            <ul>
-              <li
-                data-aos="fade-up"
-                data-aos-delay="500"
-                data-aos-duration="1000"
-              >
-                Fully managed endpoint protection services designed to secure
-                devices against the evolving landscape of cyber threats. We
-                provide comprehensive defense and threat analytics for laptops,
-                desktops, and mobile devices, safeguarding them from malware,
-                ransomware, and sophisticated cyber-attacks.
-              </li>
-            </ul>
             <a
               href="https://clients.nubinity.com/"
               target="_blank"
               rel="noreferrer"
-              className="btn_bg"
+              className="btn_bg ms-0"
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
@@ -94,8 +86,8 @@ export const Services = () => {
     </>
   );
 };
-{
-  /* <>
+
+/* <>
 <Swiper
   slidesPerView={1}
   spaceBetween={15}
@@ -219,4 +211,3 @@ export const Services = () => {
   </h4>
 </Swiper>
 </> */
-}
