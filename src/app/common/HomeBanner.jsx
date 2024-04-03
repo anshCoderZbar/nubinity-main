@@ -94,6 +94,7 @@ export const HomeBanner = () => {
                   data-aos-anchor-placement="top-bottom"
                   data-aos-delay="800"
                   data-aos-duration="1200"
+                  target={banner?.targetBlank && "_blank"}
                 >
                   {banner?.linkTxt}
                 </Link>

@@ -125,7 +125,7 @@
   align-items: center;
   flex-direction: column;
   gap: 25px;
-  margin-top: 0;
+  margin-top: 15px;
   transition: 0.5s ease-in-out;
   border: 2px solid rgba(0, 0, 0, 0);
   cursor: pointer;
@@ -166,6 +166,12 @@
 
 .serrvices .swiper-pagination-bullet-active {
   background-color: #0788ff;
+}
+
+.modal-body ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /* services */

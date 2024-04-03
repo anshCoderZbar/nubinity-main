@@ -1,12 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import {
-  Check,
-  InstagramIcon,
-  Linkedin,
-  Quote,
-  TwitterIcon,
-} from "lucide-react";
+import { Check, InstagramIcon, Linkedin, Quote } from "lucide-react";
 
 import "styles/Home.css";
 import { HomeBanner } from "app/common/HomeBanner";
@@ -378,7 +372,30 @@ export default function Home() {
                         <InstagramIcon />
                       </a>
                       <a className="text-white" href="/">
-                        <TwitterIcon />
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 500 500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="x-svg"
+                        >
+                          <g clipPath="url(#clip0_129_381)">
+                            <path
+                              d="M256 0C114.62 0 0 114.62 0 256C0 397.38 114.62 512 256 512C397.38 512 512 397.38 512 256C512 114.62 397.38 0 256 0Z"
+                              fill="transparent"
+                              className="svg_ik"
+                            />
+                            <path
+                              d="M284.006 232.832L393.597 105.442H367.628L272.47 216.054L196.468 105.442H108.809L223.739 272.706L108.809 406.294H134.78L235.269 289.485L315.532 406.294H403.191L284 232.832H284.006ZM144.137 124.993H184.027L367.639 387.632H327.75L144.137 124.993Z"
+                              fill="white"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_129_381">
+                              <rect width="512" height="512" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
                       </a>
                     </div>
                   </div>
