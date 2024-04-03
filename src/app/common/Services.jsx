@@ -109,7 +109,7 @@ export const Services = () => {
             >
               {modalHeading}
             </h1>
-            <ul className="ps-0">
+            <ul className="list-list-unstyled ps-0">
               {modalDesc?.map((elm, i) => {
                 return (
                   <li
