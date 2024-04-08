@@ -77,7 +77,6 @@ export const ServicesData = [
     heading1: "Managed Antivirus",
     heading2: "Design Thinking Services",
     list1: [
-      "An appropriate, non-cartoon image and Malwarebytes logo",
       "We work with partners like Malwarebytes to bring you managed antivirus and anti-ransomware tools to protect desktops, servers, and mobile devices. When paired with our endpoint protection services, we can create an end-to-end solution that defends your critical systems from malware, web and email threats, browser-based attacks, and network-based intrusions.",
     ],
     list2: [
@@ -150,89 +149,6 @@ export const ServicesData = [
     ],
   },
 ];
-
-// export const ServicesData = [
-//   {
-//     id: 100,
-//     icon: serviceIcon1,
-//     heading: "Managed Endpoint Protection",
-//   },
-//   {
-//     id: 101,
-//     icon: serviceIcon2,
-//     heading: "Managed Firewall Services",
-//   },
-//   {
-//     id: 102,
-//     icon: serviceIcon3,
-//     heading: "Managed Antivirus",
-//   },
-//   {
-//     id: 103,
-//     icon: serviceIcon4,
-//     heading: "Security Consulting and Pentesting",
-//   },
-//   {
-//     id: 104,
-//     icon: serviceIcon5,
-//     heading: "cPanel Web Hosting",
-//   },
-//   {
-//     id: 105,
-//     icon: serviceIcon6,
-//     heading: "SSL Certificates",
-//   },
-//   {
-//     id: 106,
-//     icon: serviceIcon7,
-//     heading: "Application Hosting",
-//   },
-//   {
-//     id: 107,
-//     icon: serviceIcon8,
-//     heading: "Storage, Email and DNS",
-//   },
-//   {
-//     id: 108,
-//     icon: serviceIcon01,
-//     heading: "Managed SSO",
-//   },
-//   {
-//     id: 109,
-//     icon: serviceIcon02,
-//     heading: "Professional Services",
-//   },
-//   {
-//     id: 110,
-//     icon: serviceIcon03,
-//     heading: "Design Thinking Services",
-//   },
-//   {
-//     id: 111,
-//     icon: serviceIcon04,
-//     heading: "Application and Web Design",
-//   },
-//   {
-//     id: 112,
-//     icon: serviceIcon05,
-//     heading: "Reseller Plans",
-//   },
-//   {
-//     id: 113,
-//     icon: serviceIcon06,
-//     heading: "WISP Services",
-//   },
-//   {
-//     id: 114,
-//     icon: serviceIcon07,
-//     heading: "Website Builder",
-//   },
-//   {
-//     id: 115,
-//     icon: serviceIcon08,
-//     heading: "Datacenter Services",
-//   },
-// ];
 
 export const PlansData = [
   {
