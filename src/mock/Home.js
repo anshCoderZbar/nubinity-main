@@ -53,7 +53,6 @@ export const ServicesData = [
       "Fully managed endpoint protection services designed to secure devices against the evolving landscape of cyber threats. We provide comprehensive defense and threat analytics for laptops, desktops, and mobile devices, safeguarding them from malware, ransomware, and sophisticated cyber-attacks.",
     ],
     list2: [
-      "An appropriate, non-cartoon image",
       "Managed SSO provides a seamless authentication experience for your organization, enabling users to access multiple applications with a single set of credentials. It increases security and simplifies the login process, reducing password fatigue and support tickets for lost or forgotten passwords.",
     ],
   },
@@ -64,12 +63,10 @@ export const ServicesData = [
     heading1: "Managed Firewall Services",
     heading2: "Professional Services",
     list1: [
-      "An appropriate, non-cartoon image",
       "We offer a comprehensive managed firewall solution, expertly designed to fortify your network's perimeter against cyber threats. Our service includes the deployment, configuration, and continuous management of advanced firewall solutions, tailored to meet your specific business needs. We offer cost effective support, so you only pay for the services and support you need.",
       "This proactive approach not only enhances your overall security posture but also reduces the burden on your IT staff, allowing them to focus on strategic initiatives.",
     ],
     list2: [
-      "An appropriate, non-cartoon image",
       "Our Professional Services offer expert consulting and implementation support for your IT projects. From initial strategy to final execution, we ensure that your technology investments are aligned with your business objectives, delivering custom solutions that drive efficiency and growth.",
     ],
   },
@@ -84,7 +81,6 @@ export const ServicesData = [
       "We work with partners like Malwarebytes to bring you managed antivirus and anti-ransomware tools to protect desktops, servers, and mobile devices. When paired with our endpoint protection services, we can create an end-to-end solution that defends your critical systems from malware, web and email threats, browser-based attacks, and network-based intrusions.",
     ],
     list2: [
-      "An appropriate, non-cartoon image",
       "Design Thinking Services are collaborative workshops aimed at solving complex problems through user-centric innovation. These sessions involve understanding user needs, ideating creative solutions, prototyping, and testing, all facilitated by our experienced design thinking experts.",
     ],
   },
@@ -95,11 +91,9 @@ export const ServicesData = [
     heading1: "Security Consulting and Pentesting",
     heading2: "Application and Web Design",
     list1: [
-      "An appropriate, non-cartoon image",
       "A comprehensive solution designed to identify and mitigate the vulnerabilities in your IT infrastructure. Our team of certified security professionals brings a wealth of experience in assessing and fortifying the cyber defenses of organizations across various industries. Through our meticulous penetration testing, we simulate real-world cyber-attacks to uncover potential weaknesses in your networks, applications, and systems. Alongside this, our consulting services provide strategic insights and tailored recommendations to enhance your security posture. We ensure that your organization is not only safeguarded against current threats but is also prepared for emerging cybersecurity challenges.",
     ],
     list2: [
-      "An appropriate, non-cartoon image",
       "Application and Web Design services focus on creating user-friendly, aesthetically pleasing digital products. We prioritize intuitive navigation, responsive layouts, and engaging content to ensure your app or website effectively meets the needs of your audience. Our code is written by qualified, expert developers. We do not use auto-generated or AI generated code of any kind for client-facing projects.",
     ],
   },
@@ -110,11 +104,9 @@ export const ServicesData = [
     heading1: "cPanel Web Hosting",
     heading2: "Reseller Plans",
     list1: [
-      "An appropriate, non-cartoon image",
       "cPanel Web Hosting provides a user-friendly web hosting solution, complete with an intuitive control panel for managing websites, databases, email accounts, and more. It's perfect for individuals and businesses looking for reliable and easily manageable hosting services.",
     ],
     list2: [
-      "An appropriate, non-cartoon image",
       "Reseller Plans allow you to start your own hosting or consulting business. With our comprehensive tools and support, you can offer hosting services under your branding, manage multiple clients, and create an independent revenue stream.",
     ],
   },
@@ -125,11 +117,9 @@ export const ServicesData = [
     heading1: "SSL Certificates",
     heading2: "WISP Services",
     list1: [
-      "An appropriate, non-cartoon image",
       "SSL Certificates are digital certificates that help encrypt data transmitted between a user's browser and a website, ensuring secure online transactions. They are essential for protecting sensitive information and building trust with your customers.",
     ],
     list2: [
-      "An appropriate, non-cartoon image",
       "WISP (Wireless Internet Service Provider) services offer high-speed internet solutions to customers through wireless broadband technology. Ideal for rural or underserved areas, our WISP services bridge the digital divide with reliable connectivity. We will work with you or your business to bring you fast, reliable internet access.",
     ],
   },
@@ -140,11 +130,9 @@ export const ServicesData = [
     heading1: "Application Hosting",
     heading2: "Website Builder",
     list1: [
-      "An appropriate, non-cartoon image",
       "Our cPanel based application hosting service offers a robust environment for deploying web applications. With high-performance servers, scalability, and 24/7 support, we ensure that your applications run smoothly and efficiently. Content delivery network services are also available. ",
     ],
     list2: [
-      "An appropriate, non-cartoon image",
       "Our website builder is a drag-and-drop tool that makes it easy for anyone to create a professional-looking website without any coding knowledge. With customizable templates and intuitive design features, you can build and launch your site quickly.",
     ],
   },
@@ -155,11 +143,9 @@ export const ServicesData = [
     heading1: "Storage, Email and DNS",
     heading2: "Datacenter Services",
     list1: [
-      "An appropriate, non-cartoon image",
       "This service provides secure and scalable storage solutions, professional email hosting with your domain, and reliable Domain Name System (DNS) management to ensure your online presence is fast and always accessible.",
     ],
     list2: [
-      "An appropriate, non-cartoon image",
       "We provide secure, scalable, and redundant hosting solutions for your critical IT infrastructure. We can provide you with the necessary systems to connect your mission-critical applications to your customers by leveraging industry leading connectivity solutions such as Mikrotik and Cisco infrastructure, VMware NSX software defined network solutions, and managed configuration management and endpoint security appliances. ",
     ],
   },
