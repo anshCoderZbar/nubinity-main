@@ -109,10 +109,6 @@
   margin: 45px 0;
 }
 
-.service_card {
-  margin-top: 50px;
-}
-
 .service-card-body {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 28px;
@@ -699,10 +695,6 @@
   .serrvices .swiper-pagination-bullet {
     height: 12px;
     width: 12px;
-  }
-
-  .service_card {
-    margin-top: 30px;
   }
 
   .plans_content span {
